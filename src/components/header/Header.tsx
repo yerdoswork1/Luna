@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import styles from "./header.module.scss";
-import Logo from "@/assets/header-logo.svg";
+import Logo from "@/components/header/logo/Logo";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageDropDown from "@/components/header/languageDropdown/LanguageDropdown";
@@ -53,17 +53,21 @@ export default function Header() {
 							<Logo />
 							<div className={styles.linkContainer}></div>
 						</div>
-						<Link to="/contacts" className={styles.linkContacts}>
-							{t("header.contacts")}
-						</Link>
-						<img src={Location} />
-						<p>Дубай</p>
-						<LanguageDropDown
-							isOpen={isLanguageOpen}
-							setIsOpen={setIsLanguageOpen}
-							selectedLanguage={selectedLanguage}
-							setSelectedLanguage={setSelectedLanguage}
-						/>
+						<div className={styles.rightBlock}>
+							<Link to="/contacts" className={styles.linkContacts}>
+								{t("header.contacts")}
+							</Link>
+							<div className={styles.location}>
+								<img src={Location} alt="location" />
+								<p>Дубай</p>
+							</div>
+							<LanguageDropDown
+								isOpen={isLanguageOpen}
+								setIsOpen={setIsLanguageOpen}
+								selectedLanguage={selectedLanguage}
+								setSelectedLanguage={setSelectedLanguage}
+							/>
+						</div>
 					</div>
 				</div>
 			</header>

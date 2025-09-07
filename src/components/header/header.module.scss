@@ -1,0 +1,83 @@
+@use "@/styles/mixin-font" as *;
+
+@use "@/styles/mixin-layout" as *;
+
+@use "@/styles/mixin-responsive-props" as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 0.625rem; // px-2.5
+  padding-right: 0.625rem;
+  padding-top: 1.75rem; // py-7
+  padding-bottom: 1.75rem;
+  color: rgb(35, 34, 34);
+  font-weight: 400; // font-normal
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: #ffffff;
+
+  @include text-size("base");
+
+  @media (min-width: 640px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @include responsive-prop(font-size, 12px, 17px, 22px, 30px);
+}
+
+.container {
+  @include container-layout;
+}
+
+.containerItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerLink {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    column-gap: 0.625rem;
+  }
+
+  @media (min-width: 1280px) {
+    column-gap: 2.5rem;
+  }
+}
+
+.linkContacts {
+  @include responsive-prop(display, (xs: none, md: block));
+  @include responsive-prop(margin-right, (md:20px, lg:40px, xl:60px));
+
+
+  &:hover {
+    color: #43A047;
+  }
+}
+
+.linkContainer {
+  @include responsive-prop(display, (xs: none, md: block));
+}
+
+.rightBlock {
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  margin-right: 20px;
+
+  img {
+    margin-right: 4px;
+    @include responsive-prop(width, 10px, 12px, 18px, 25px);
+    @include responsive-prop(height, 14px, 16px, 23px, 30px);
+  }
+}
