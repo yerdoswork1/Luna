@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 // import ConditionalLayout from "@/components/layout/ConditionalLayout";
 import Layout from "@/components/layout/Layout";
+import Home from "@/pages/home/Home";
 
 // import Home from "@/pages/home-page";
 // import ContactsPage from "@/pages/contactsPage/ContactsPage";
@@ -13,7 +14,11 @@ import Layout from "@/components/layout/Layout";
 export const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <Layout>{/* <Home /> */}</Layout>,
+		element: (
+			<Layout>
+				<Home />
+			</Layout>
+		),
 	},
 	// {
 	// 	path: "/contacts",
