@@ -1,10 +1,8 @@
 import { ReactNode } from "react";
 import { useMediaQuery } from "react-responsive";
 import styles from "./layout.module.scss";
-// import Header from "../header/Header";
-// import Footer from "../footer/footer/Footer";
-// import Navbar from "../navbar/NavBar";
 import { Outlet } from "react-router-dom";
+import Header from "@/components/header/Header";
 
 interface LayoutProps {
 	hideOnMobile?: boolean;
@@ -18,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ hideOnMobile = false, children }) => {
 
 	return (
 		<>
-			{/* {!shouldHide && <Header />} */}
+			{!shouldHide && <Header />}
 			<main>
 				<div className={styles.layout}>
 					<div className={styles.container}>{children || <Outlet />}</div>

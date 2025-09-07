@@ -1,0 +1,95 @@
+@use '@/styles/mixin-interactive-flex' as *;
+@use '@/styles/mixin-responsive-props' as *;
+
+.containerLanguage {
+  position: relative;
+
+  @include flex-with-gap($align: center);
+}
+
+.btnLanguage {
+
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease;
+
+  @include responsive-prop(column-gap, (xs: 0.625rem));
+
+  &:hover {
+    color: #43A047;
+  }
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+
+  @include responsive-prop(width, (xs: 1.5rem, 2xl: 2.5rem));
+}
+
+.imgLanguage {
+  object-fit: contain;
+}
+
+.textLanguage {
+  @include responsive-prop(margin-right, (xl: 1.75rem, 2xl: 0));
+}
+
+.shortTextLanguage {
+  @include responsive-prop(display, (xs: block, md: none));
+}
+
+.btnMenu {
+  transition: transform 0.2s;
+
+  &.open {
+    transform: rotate(180deg);
+  }
+}
+
+.nav {
+  position: absolute;
+  right: 0.125rem;
+  background: #fff;
+  border-radius: 0 0 0.5rem 0.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+
+
+  @include responsive-prop(top, (md: 59px, lg: 60px, xl: 62px, 2xl: 64px));
+
+  @include responsive-prop(width, (md: 8rem, lg: 8.75rem, xl: 11.5rem, 2xl: 16rem));
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  min-height: 205px;
+  justify-content: space-around;
+  @include responsive-prop(min-height, (xs:150px, md:200px))
+}
+
+.languageItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s, background-color 0.2s;
+
+  &:hover {
+    background-color: #f9fafb;
+    color: #43A047;
+  }
+
+  &.active {
+    color: #388E3C;
+    font-weight: 500;
+  }
+}
+
+.imgItem {
+  flex-shrink: 0;
+}
