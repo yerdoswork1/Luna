@@ -1,0 +1,55 @@
+@use "@/styles/mixin-breakpoints" as *;
+@use "@/styles/mixin-responsive-props" as *;
+@use "@/styles/mixin-font" as *;
+@use "@/styles/mixin-interactive-flex" as *;
+
+.footer {
+  color: #000;
+  width: 100%;
+  margin: 0 auto;
+
+  @include responsive-prop(padding-left, 1rem, 1.5rem, 2rem, 3rem);
+  @include responsive-prop(padding-right, 1rem, 1.5rem, 2rem, 3rem);
+
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+
+  display: none;
+
+  @media (min-width: map-get($breakpoints, md)) {
+    display: block;
+  }
+
+  @media (min-width: map-get($breakpoints, 2xl)) {
+    max-width: 1760px;
+  }
+
+  @include text-size(base, null, null, xl);
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2.5rem;
+}
+
+.footerText {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  flex-direction: column;
+}
+
+.footerDscr {
+  @include text-size(sm, null, null, base);
+  color: #646464;
+}
+
+.containerContent {
+  @include flex-with-gap($justify: space-between);
+  padding-bottom: 2.5rem;
+  padding-top: 1.25rem;
+  border-top-color: #2563eb;
+  border-top-width: 1px;
+  border-top-style: solid;
+}

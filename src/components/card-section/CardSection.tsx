@@ -13,19 +13,16 @@ const CardSection = () => {
 					{t("home-page.direction-carousel-section.directions")}
 				</h3>
 			</div>
-
 			<div className={styles.blockSpacing}>
 				{" "}
 				<div className={styles.carouselTrack}>
 					{cards.map((card) => (
-						<div key={card.id} className={styles.carouselItem}>
-							<MainCard
-								id={card.id}
-								name={card.name}
-								image={card.image}
-								className={styles.mainCard}
-							/>
-						</div>
+						<MainCard
+							id={card.id}
+							name={card.name}
+							image={card.image}
+							className={styles.mainCard}
+						/>
 					))}
 				</div>
 			</div>

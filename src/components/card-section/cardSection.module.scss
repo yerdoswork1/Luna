@@ -25,6 +25,7 @@
 .carouselSubtitle {
   font-weight: 600;
   font-size: 0.75rem;
+  white-space: nowrap;
 
   @media (min-width: map-get($breakpoints, md)) {
     font-size: 1.125rem;
@@ -85,38 +86,13 @@
 .carouselTrack {
   display: flex;
   width: 100%;
-  margin-left: -0.3125rem;
-
+  @include responsive-prop(gap, (xs:10px, md:20px, lg:30px));
   @include responsive-prop(flex-wrap, (xs:wrap, md:nowrap));
-
-  @media (min-width: map-get($breakpoints, md)) {
-    margin-left: -0.625rem;
-  }
-
-  @media (min-width: map-get($breakpoints, xl)) {
-    margin-left: -0.875rem;
-  }
-}
-
-.carouselItem {
-  display: flex;
-  flex-basis: 50%;
-  scroll-snap-align: start;
-  padding-left: 0.625rem;
-  @include responsive-prop(max-width, (xs: 16rem, md: 10rem, lg:18.750rem, xl:26rem));
-
-  @media (min-width: map-get($breakpoints, md)) {
-    flex-basis: 33.333%;
-    padding-left: 1.25rem;
-  }
-
-  @media (min-width: map-get($breakpoints, xl)) {
-    padding-left: 1.75rem;
-  }
 }
 
 .mainCard {
   width: 100%;
   margin-bottom: 1rem;
   margin-top: 0.375rem;
+  flex-basis: 50%;
 }

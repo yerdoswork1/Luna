@@ -1,0 +1,15 @@
+@use '@/styles/mixin-interactive-flex' as *;
+@use "@/styles/mixin-responsive-props" as *;
+@use "@/styles/mixin-font" as *;
+
+.infoContainer {
+  @include flex-with-gap(0.25rem, null, null, null, null, null, null, null, null, flex-start, null);
+  flex-direction: column;
+}
+
+.infoDscr {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  @include text-size(xl, null, null, 2xl);
+  @include responsive-prop(font-weight, bold, null, normal);
+}

@@ -31,11 +31,10 @@
 		"direction-carousel-section": {
 			"directions": "Каталог",
 			"see-all": "Посмотреть все",
-			"professions": "Профессии",
-			"subjects": "Предметы",
-			"languages": "Языки",
-			"music-and-dance": "Музыка и танцы",
-			"preparatory-courses": "Подготовительные\nкурсы"
+			"restaurant": "Ресторан",
+			"coffeeshop": "Кофейня",
+			"fast-food": "Фастфуд",
+			"healthy-diet": "Правильное питание"
 		},
 		"open-your-potential": {
 			"title": "Раскройте свой потенциал с онлайн‑школой SkillShift!",
