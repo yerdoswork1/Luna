@@ -1,0 +1,155 @@
+@use "@/styles/mixin-breakpoints" as *;
+@use "@/styles/mixin-font" as *;
+
+.servicePage {
+  padding: 2rem 22px;
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 10px;
+
+    .logoContainer {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo {
+      width: 1rem;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    position: relative;
+    justify-content: space-between;
+
+    @include breakpoint(md) {
+      flex-direction: row;
+    }
+  }
+
+  .backBtn {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    width: 3rem;
+    cursor: pointer;
+
+    @include breakpoint(sm) {
+      width: 4rem;
+    }
+
+    @include breakpoint(md) {
+      display: none;
+      top: 1.5rem;
+      left: 2.5rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .imageWrapper {
+    @include breakpoint(md) {
+      width: 43%;
+      min-height: 18rem;
+    }
+
+    @include breakpoint(xl) {
+      aspect-ratio: 1/1;
+    }
+
+    @include breakpoint(2xl) {
+      aspect-ratio: 7/5;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 0.75rem;
+    }
+  }
+
+  .textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 0.75rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 0.75rem;
+
+    @include breakpoint(md) {
+      width: 55%;
+      min-height: 18rem;
+      row-gap: 0.75rem;
+    }
+
+    .title {
+      font-weight: 700;
+      @include text-size(2xl, null, 3xl, 4xl, 5xl);
+      margin-bottom: 0.75rem;
+
+      @include breakpoint(md) {
+        margin-bottom: 0;
+      }
+    }
+
+    .description {
+      @include text-size(md, lg, lg, xl, 2xl);
+      margin-bottom: 0.25rem;
+    }
+
+    .price {
+      @include text-size(2xl, null, null, 4xl);
+      margin-top: 0.75rem;
+
+      @include breakpoint(md) {
+        margin-top: 1rem;
+      }
+    }
+
+    .button {
+      @include text-size(lg, xl, xl, 2xl);
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 0.75rem;
+      padding: 17px 125px;
+
+      @include breakpoint(sm) {
+        // padding: 2rem 1.5rem;
+      }
+
+      @include breakpoint(md) {
+        // padding: 0.75rem 0.5rem;
+      }
+
+      @include breakpoint(xl) {
+        // padding: 1.25rem 2rem;
+        border-radius: 1rem;
+        width: max-content;
+      }
+
+      cursor: pointer;
+
+      &:hover {
+        background-color: #43A047;
+      }
+
+      &:active {
+        background-color: #388E3C;
+      }
+    }
+  }
+}
