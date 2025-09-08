@@ -1,0 +1,92 @@
+@use "@/styles/mixin-breakpoints" as *;
+@use "@/styles/mixin-interactive-flex" as *;
+@use "@/styles/mixin-font" as *;
+@use "@/styles/mixin-responsive-props" as *;
+
+.wrapper {
+  @include responsive-prop(gap, 0.5rem, null, 1.5rem, 3rem);
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.containerImage {
+  @include responsive-prop(width, 20%, 40%);
+  @include responsive-prop(min-width, 9rem, null, 16.5rem);
+  @include responsive-prop(max-width, 16rem, 72rem);
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.groupImage {
+  object-fit: cover;
+  border-radius: 0.75rem;
+  @include responsive-prop(width, null, 100%);
+}
+
+.containerContent {
+  @include flex-with-gap($gap: 0.25rem,
+    $gap-sm: 0.5rem,
+    $gap-md: 1rem,
+    $align: flex-start,
+    $justify: space-between);
+  flex-direction: column;
+
+  @include responsive-prop(width, 50%, 60%, null, 70%);
+}
+
+.containerDscr {
+  @include flex-with-gap($gap: 0.5rem, $align: null);
+  flex-direction: column;
+}
+
+.groupSubtitle {
+  font-weight: 600;
+  font-size: 0.6rem;
+  line-height: 0.75rem;
+
+  @include responsive-prop(font-size, 0.6rem, 1.25rem, 1.5rem, 2rem);
+  @include responsive-prop(line-height, 0.75rem, 1.5rem, 2rem, 2.5rem);
+  @include responsive-prop(width, null, 80%);
+}
+
+.groupDescription {
+  font-size: 0.4rem;
+  line-height: 0.6rem;
+  margin-top: 0.25rem;
+
+  @include responsive-prop(font-size, 0.4rem, 0.75rem, 1.125rem, 1.5rem);
+  @include responsive-prop(line-height, 0.6rem, 1rem, 1.5rem, 2rem);
+  @include responsive-prop(margin-top, 0.25rem, 1rem);
+}
+
+.groupBtn {
+  font-size: 0.5rem;
+  line-height: 0.75rem;
+  align-self: flex-start;
+  color: white;
+  background-color: #4CAF50;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #43A047;
+  }
+
+  &:active {
+    background-color: #388E3C;
+  }
+
+  @include responsive-prop(font-size, 0.5rem, 0.75rem, 1.25rem, 1.75rem);
+  @include responsive-prop(line-height, 0.75rem, 1rem, 1.5rem, 2.25rem);
+  @include responsive-prop(padding, 0.25rem 0.5rem, 0.5rem 1.5rem, null, 1rem 2rem);
+  @include responsive-prop(border-radius, 0.5rem, null, null, 1rem);
+  @include responsive-prop(margin-top, 0.5rem, 1rem, 1rem, 1.5rem);
+}
