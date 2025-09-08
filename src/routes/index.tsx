@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 // import ConditionalLayout from "@/components/layout/ConditionalLayout";
 import Layout from "@/components/layout/Layout";
 import Home from "@/pages/home/Home";
+import ServicePage from "@/pages/service-page/ServicePage";
 
 // import Home from "@/pages/home-page";
 // import ContactsPage from "@/pages/contactsPage/ContactsPage";
@@ -37,14 +38,14 @@ export const router = createBrowserRouter([
 	// 		</ConditionalLayout>
 	// 	),
 	// },
-	// {
-	// 	path: "/services/:services/:serviceId",
-	// 	element: (
-	// 		<ConditionalLayout hideOnMobile={true}>
-	// 			<ServicePage />
-	// 		</ConditionalLayout>
-	// 	),
-	// },
+	{
+		path: "/services/:serviceId",
+		element: (
+			<Layout>
+				<ServicePage />
+			</Layout>
+		),
+	},
 	// {
 	// 	path: "/privacy",
 	// 	element: (

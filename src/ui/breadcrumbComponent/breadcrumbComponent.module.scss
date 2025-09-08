@@ -1,0 +1,70 @@
+@use "@/styles/mixin-breakpoints" as *;
+@use "@/styles/mixin-font" as *;
+
+.breadcrumbWrapper {
+  padding-bottom: 1.5rem;
+  margin-top: 15px;
+}
+
+.breadcrumb {
+  display: block;
+}
+
+.breadcrumbList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem;
+
+  @include text-size(xs);
+
+  @include breakpoint(sm) {
+    gap: 0.625rem;
+    @include text-size(base);
+  }
+}
+
+.breadcrumbItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+
+  &:hover {
+    .breadcrumbLink {
+      color: #4f46e5;
+    }
+
+    .breadcrumbSeparator svg {
+      color: #4f46e5;
+    }
+  }
+}
+
+.breadcrumbLink {
+  color: rgb(35, 34, 34);
+  transition: color 0.2s;
+
+  &.lastItem {
+    color: rgb(0, 0, 0);
+  }
+
+  a {
+    @include text-size(xs);
+
+    @include breakpoint(sm) {
+      @include text-size(base);
+    }
+  }
+}
+
+.breadcrumbSeparator {
+  display: inline-flex;
+  align-items: center;
+
+  svg {
+    width: 0.875rem;
+    height: 0.875rem;
+    color: rgb(156, 163, 175);
+    transition: color 0.2s;
+  }
+}
