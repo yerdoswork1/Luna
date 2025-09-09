@@ -1,0 +1,74 @@
+@use "@/styles/mixin-breakpoints" as *;
+@use "@/styles/mixin-interactive-flex" as *;
+@use "@/styles/mixin-responsive-props" as *;
+@use "@/styles/mixin-font" as *;
+
+.wrapper {
+  @include flex-with-gap($direction: row, $align: center, $justify: center);
+  min-height: 100vh;
+}
+
+.content {
+  text-align: center;
+  width: 100%;
+  max-width: 480px;
+}
+
+.errorCode {
+  color: #4CAF50;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+
+  @include text-size(xl, 2xl);
+
+  @include breakpoint(md) {
+    font-size: 64px;
+    line-height: 1.2;
+  }
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  @include text-size(lg, xl, 2xl);
+}
+
+.description {
+  margin-bottom: 2.5rem;
+  @include text-size(sm, md);
+}
+
+.link {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+  max-width: 350px;
+
+  @include responsive-prop(padding, (xs: 0.5rem 15px, md: 0.5rem 78px));
+
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  transition: background-color 0.2s;
+
+  @include text-size(xs, md);
+
+  &:hover {
+    background-color: #43A047;
+  }
+
+  &:active {
+    background-color: #3E8F3E;
+  }
+
+  @include breakpoint(md) {
+    position: static;
+    transform: none;
+    width: auto;
+    max-width: none;
+  }
+}

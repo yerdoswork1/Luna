@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import Navbar from "../navbar/NavBar";
+import ScrollToTop from "@/ui/scroll-to-top/ScrollToTop";
 
 interface LayoutProps {
 	hideOnMobile?: boolean;
@@ -18,14 +19,15 @@ const Layout: React.FC<LayoutProps> = ({ hideOnMobile = false, children }) => {
 
 	return (
 		<>
+			<ScrollToTop />
 			{!shouldHide && <Header />}
 			<main>
 				<div className={styles.layout}>
 					<div className={styles.container}>{children || <Outlet />}</div>
 				</div>
 			</main>
+			<div className={styles.block}></div>
 			{!shouldHide && <Footer />}
-
 			{!shouldHide && <Navbar />}
 		</>
 	);
