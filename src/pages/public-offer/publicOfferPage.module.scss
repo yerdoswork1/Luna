@@ -1,0 +1,46 @@
+@use '@/styles/mixin-breakpoints' as *;
+@use '@/styles/mixin-interactive-flex' as *;
+@use '@/styles/mixin-responsive-props' as *;
+@use '@/styles/mixin-font' as*;
+@use '@/styles/mixin-layout' as *;
+
+.container {
+  @include container-layout;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  @include flex-with-gap($direction: column, $align: flex-start);
+  @include responsive-prop(gap, (xs: 14px, md: 30px, 2xl: 40px));
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  @include responsive-prop(font-size, (xs: 13px, md: 18px, 2xl: 32px, 3xl: 44px));
+  @include responsive-prop(line-height, (xs: 20px, md: 22px, 2xl: 40px, 3xl: 52px));
+  padding: 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  @include flex-with-gap($direction: column, $align: flex-start);
+}
+
+.sectionTitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 35px;
+  @include responsive-prop(font-size, (xs: 13px, md: 18px, 2xl: 32px, 3xl: 44px));
+  @include responsive-prop(line-height, (xs: 20px, md: 22px, 2xl: 40px, 3xl: 52px));
+
+}
+
+.sectionDesc {
+  font-family: 'Inter', sans-serif;
+  @include responsive-prop(font-size, (xs: 14px, md: 18px, 2xl: 24px, 3xl: 28px));
+}
+
+.date {
+  @include responsive-prop(font-size, (xs:14px, md: 18px, 2xl: 24px, 3xl: 28px));
+}

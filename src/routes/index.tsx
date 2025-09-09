@@ -5,6 +5,10 @@ import Home from "@/pages/home/Home";
 import ServicePage from "@/pages/service-page/ServicePage";
 import ContactsPage from "@/pages/contacts-page/ContactsPage";
 import InfoPage from "@/pages/info-page/InfoPage";
+import Page404 from "@/pages/page-404/Page404";
+import Privacy from "@/pages/privacy-policy/Privacy";
+import PublicOfferPage from "@/pages/public-offer/PublicOfferPage";
+import ConditionalLayout from "@/components/layout/ConditionalLayout";
 
 // import Home from "@/pages/home-page";
 // import ContactsPage from "@/pages/contactsPage/ContactsPage";
@@ -51,29 +55,29 @@ export const router = createBrowserRouter([
 	{
 		path: "/services/:serviceId",
 		element: (
-			<Layout>
+			<ConditionalLayout hideOnMobile={true}>
 				<ServicePage />
+			</ConditionalLayout>
+		),
+	},
+	{
+		path: "/privacy",
+		element: (
+			<Layout>
+				<Privacy />
 			</Layout>
 		),
 	},
-	// {
-	// 	path: "/privacy",
-	// 	element: (
-	// 		<Layout>
-	// 			<Privacy />
-	// 		</Layout>
-	// 	),
-	// },
-	// {
-	// 	path: "/public-offer-agreement",
-	// 	element: (
-	// 		<Layout>
-	// 			<PublicOfferPage />
-	// 		</Layout>
-	// 	),
-	// },
-	// {
-	// 	path: "*",
-	// 	element: <Page404 />,
-	// },
+	{
+		path: "/public-offer-agreement",
+		element: (
+			<Layout>
+				<PublicOfferPage />
+			</Layout>
+		),
+	},
+	{
+		path: "*",
+		element: <Page404 />,
+	},
 ]);

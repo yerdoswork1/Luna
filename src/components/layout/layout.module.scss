@@ -42,3 +42,14 @@
   background-color: transparent;
   width: 100%;
 }
+
+.block {
+  height: 95px;
+  width: 100%;
+  display: block;
+  background-color: transparent;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

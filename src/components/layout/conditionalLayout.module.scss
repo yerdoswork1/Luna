@@ -1,0 +1,30 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 10px;
+  margin-bottom: 20px;
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .logo {
+    width: 2.5rem;
+  }
+
+  .btnContainer {
+    display: flex;
+
+    align-items: center;
+
+    img {
+      margin-right: 5px;
+    }
+
+    p {
+      margin-right: 10px;
+    }
+  }
+}
