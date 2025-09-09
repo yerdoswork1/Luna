@@ -1,0 +1,62 @@
+@use '@/styles/mixin-breakpoints' as *;
+@use '@/styles/mixin-interactive-flex' as *;
+@use '@/styles/mixin-font' as *;
+@use '@/styles/mixin-responsive-props' as *;
+
+.nav {
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  width: 100%;
+  background-color: rgb(246, 249, 251);
+  @include responsive-prop(padding, 0.875rem 2.5rem);
+  box-shadow: 0px 1px 6px 0px rgba(59, 70, 224, 0.05);
+
+  @include breakpoint(md) {
+    display: none;
+  }
+}
+
+.navList {
+  @include flex-with-gap($align: center,
+    $justify: space-between);
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: color 0.2s;
+
+  &:hover {
+
+    .navText,
+    .imgNav {
+      color: #43A047;
+      stroke: #388E3C;
+    }
+  }
+
+  &.active {
+
+    .navText,
+    .imgNav {
+      color: #43A047;
+      stroke: #388E3C;
+    }
+  }
+}
+
+.navText {
+  @include text-size(xs);
+  font-weight: 600;
+}
+
+.imgNav {
+  width: 1.5rem; // w-6
+  height: 1.5rem; // h-6
+  transition: stroke 0.2s;
+}

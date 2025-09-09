@@ -15,6 +15,7 @@ interface Service {
 export
   interface ServiceCategory {
   items: Service[],
+  id?: string,
 }
 
 

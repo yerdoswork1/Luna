@@ -1,0 +1,75 @@
+@use '@/styles/mixin-breakpoints' as *;
+@use '@/styles/mixin-font' as *;
+@use '@/styles/mixin-interactive-flex' as *;
+@use '@/styles/mixin-responsive-props' as *;
+
+.contactsContent {
+  @include flex-with-gap(row, space-between, flex-start);
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+
+  address {
+    display: flex;
+
+    @include responsive-prop(flex-direction, column);
+
+    @include responsive-prop(align-items, flex-start);
+
+    @include responsive-prop(justify-content, flex-start);
+
+
+    @include responsive-prop(gap, 1.25rem, 1rem);
+
+    a {
+      @include flex-with-gap($direction: row,
+        $align: center,
+        $justify: space-between,
+        $gap: 1.5rem);
+
+      font-style: normal;
+      text-decoration: none;
+      transition: color 0.2s;
+
+      @include text-size(sm);
+
+      &:hover {
+        color: #FF5722;
+      }
+
+      @include breakpoint(sm) {
+        @include responsive-prop(padding-top, 0);
+        @include responsive-prop(padding-bottom, 0);
+      }
+
+      @include breakpoint(2xl) {
+        @include text-size(3xl);
+        @include responsive-prop(padding-top, 0.625rem);
+        @include responsive-prop(padding-bottom, 0.625rem);
+      }
+
+      @include breakpoint(3xl) {
+        @include text-size(6xl);
+        @include responsive-prop(padding-top, 1.5rem);
+        @include responsive-prop(padding-bottom, 1.5rem);
+      }
+
+      svg {
+        @include responsive-prop(width, 20px);
+        @include responsive-prop(height, 20px);
+
+        @include breakpoint(md) {
+          @include responsive-prop(width, 24px);
+          @include responsive-prop(height, 24px);
+        }
+
+        @include breakpoint(xl) {
+          @include responsive-prop(width, 40px);
+          @include responsive-prop(height, 40px);
+        }
+
+        flex-shrink: 0;
+      }
+    }
+  }
+}

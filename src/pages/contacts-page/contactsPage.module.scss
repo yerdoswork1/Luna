@@ -1,0 +1,65 @@
+@use "@/styles/mixin-breakpoints" as *;
+@use "@/styles/mixin-responsive-props" as *;
+@use "@/styles/mixin-font" as *;
+
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: var(--font-inter, "Inter", sans-serif);
+
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+
+    @include responsive-prop(gap, 1.875rem);
+
+    @include breakpoint(md) {
+      @include responsive-prop(gap, 3.75rem);
+    }
+
+    @include breakpoint(3xl) {
+      @include responsive-prop(gap, 6.25rem);
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      @include responsive-prop(gap, 1.25rem);
+
+      @include breakpoint(md) {
+        @include responsive-prop(gap, 2.5rem);
+      }
+
+      @include breakpoint(3xl) {
+        @include responsive-prop(gap, 4.25rem);
+      }
+
+      h2 {
+        width: 100%;
+        font-weight: 600;
+        font-family: var(--font-montserrat, "Montserrat", sans-serif);
+
+
+        @include text-size(sm);
+
+        @include breakpoint(sm) {
+          @include text-size(md);
+        }
+
+        @include breakpoint(md) {
+          @include text-size(lg);
+        }
+
+        @include breakpoint(2xl) {
+          @include text-size(xl);
+        }
+
+        @include breakpoint(3xl) {
+          font-size: 44px;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+}
