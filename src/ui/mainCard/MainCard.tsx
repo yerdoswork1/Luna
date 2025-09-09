@@ -11,7 +11,7 @@ const MainCard: React.FC<IMainCardProps> = ({
 	id,
 	name,
 	image,
-	price,
+	dscr,
 	className,
 }) => {
 	const { t } = useTranslation();
@@ -28,11 +28,7 @@ const MainCard: React.FC<IMainCardProps> = ({
 				</p>
 			</div>
 			<div className={styles.cardContainer}>
-				{price && (
-					<p className={styles.priceBlock}>
-						от {new Intl.NumberFormat("ru-RU").format(price)} ₸
-					</p>
-				)}
+				{dscr && <p className={styles.priceBlock}>{dscr}</p>}
 				<LinkToIconComponent href={`services/${id}`} />
 			</div>
 		</div>

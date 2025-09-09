@@ -18,7 +18,9 @@ export default function HeroSection() {
 				<p className={styles.heroSectionSubtitle}>
 					{t("home-page.hero-section.subtitle")}
 				</p>
-
+				<p className={styles.heroSectionSubtitleShort}>
+					{t("home-page.hero-section.subtitle-short")}
+				</p>
 				<button className={styles.heroSectionButton}>
 					{t("home-page.hero-section.whatsapp")}
 				</button>

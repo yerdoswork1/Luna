@@ -31,7 +31,7 @@ export default function ContactPage() {
 				/>
 				<div className={styles.contentWrapper}>
 					<section>
-						<h2>{t("contactsPage.title")}</h2>
+						<h2 className={styles.title}>{t("contactsPage.title")}</h2>
 						<ContactsContent />
 					</section>
 				</div>

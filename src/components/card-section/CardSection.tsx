@@ -1,7 +1,7 @@
 import { cards } from "@/pages/home/services/cardInfo";
 import MainCard from "@/ui/mainCard/MainCard";
 import { useTranslation } from "react-i18next";
-import styles from "./CardSection.module.scss";
+import styles from "./cardSection.module.scss";
 
 const CardSection = () => {
 	const { t } = useTranslation();
@@ -13,16 +13,20 @@ const CardSection = () => {
 					{t("home-page.direction-carousel-section.directions")}
 				</h3>
 			</div>
+
 			<div className={styles.blockSpacing}>
 				{" "}
 				<div className={styles.carouselTrack}>
 					{cards.map((card) => (
-						<MainCard
-							id={card.id}
-							name={card.name}
-							image={card.image}
-							className={styles.mainCard}
-						/>
+						<div key={card.id} className={styles.carouselItem}>
+							<MainCard
+								id={card.id}
+								name={card.name}
+								image={card.image}
+								dscr={card.dscr}
+								className={styles.mainCard}
+							/>
+						</div>
 					))}
 				</div>
 			</div>

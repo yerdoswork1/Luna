@@ -40,25 +40,7 @@
         font-weight: 600;
         font-family: var(--font-montserrat, "Montserrat", sans-serif);
 
-
-        @include text-size(sm);
-
-        @include breakpoint(sm) {
-          @include text-size(md);
-        }
-
-        @include breakpoint(md) {
-          @include text-size(lg);
-        }
-
-        @include breakpoint(2xl) {
-          @include text-size(xl);
-        }
-
-        @include breakpoint(3xl) {
-          font-size: 44px;
-          line-height: 1.2;
-        }
+        @include text-size(xs, md, 3xl)
       }
     }
   }

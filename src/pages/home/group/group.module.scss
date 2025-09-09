@@ -66,15 +66,16 @@
 }
 
 .groupBtn {
+  padding: 17px 125px;
   font-size: 0.5rem;
   line-height: 0.75rem;
   align-self: flex-start;
   color: white;
   background-color: #4CAF50;
   border-radius: 0.5rem;
-  padding: 0.25rem 0.5rem;
   cursor: pointer;
   transition: background-color 0.2s ease;
+
 
   &:hover {
     background-color: #43A047;
@@ -86,7 +87,7 @@
 
   @include responsive-prop(font-size, 0.5rem, 0.75rem, 1.25rem, 1.75rem);
   @include responsive-prop(line-height, 0.75rem, 1rem, 1.5rem, 2.25rem);
-  @include responsive-prop(padding, 0.25rem 0.5rem, 0.5rem 1.5rem, null, 1rem 2rem);
+  @include responsive-prop(padding, 0.5rem 2rem, 1.5rem 3rem, 1rem 5.5rem, 1rem 8rem);
   @include responsive-prop(border-radius, 0.5rem, null, null, 1rem);
   @include responsive-prop(margin-top, 0.5rem, 1rem, 1rem, 1.5rem);
 }

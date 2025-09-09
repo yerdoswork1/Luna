@@ -8,7 +8,7 @@ export interface IServiceCard {
   id: string;
   name: string;
   image?: string;
-  price?: number;
+  dscr?: string;
 }
 
 export const cards: IServiceCard[] = [
@@ -16,20 +16,24 @@ export const cards: IServiceCard[] = [
     id: "restaurant",
     name: "restaurant",
     image: Restaurant,
+    dscr: "LunaRosa"
   },
   {
     id: "coffeeshop",
     name: "coffeeshop",
     image: CoffeeShop,
+    dscr: "LunaBello"
   },
   {
     id: "fast-food",
     name: "fast-food",
     image: FastFood,
+    dscr: "LunaBite"
   },
   {
     id: "healthy-diet",
     name: "healthy-diet",
     image: HealthyDiet,
+    dscr: "LunaVita"
   },
 ]

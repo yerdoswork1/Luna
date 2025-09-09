@@ -6,7 +6,8 @@ $text-sizes: (
   md: (1rem, 1.5rem),
   lg: (1.125rem, 1.75rem),
   xl: (1.25rem, 1.75rem),
-  2xl: (1.5rem, 2rem)
+  2xl: (1.5rem, 2rem),
+  3xl:(2rem, 2rem)
 );
 
 @mixin text-size($xs, $sm: null, $md: null, $lg: null, $xl: null, $xxl: null) {
