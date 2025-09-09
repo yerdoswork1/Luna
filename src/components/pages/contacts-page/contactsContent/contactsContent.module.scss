@@ -31,10 +31,10 @@
       text-decoration: none;
       transition: color 0.2s;
 
-      @include text-size(sm);
+      @include text-size(xs, sm, 2xl);
 
       &:hover {
-        color: #FF5722;
+        color: #43A047;
       }
 
       @include breakpoint(sm) {
