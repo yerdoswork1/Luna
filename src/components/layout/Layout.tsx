@@ -4,6 +4,7 @@ import styles from "./layout.module.scss";
 import { Outlet } from "react-router-dom";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import Navbar from "../navbar/NavBar";
 
 interface LayoutProps {
 	hideOnMobile?: boolean;
@@ -25,7 +26,7 @@ const Layout: React.FC<LayoutProps> = ({ hideOnMobile = false, children }) => {
 			</main>
 			{!shouldHide && <Footer />}
 
-			{/* {!shouldHide && <Navbar />} */}
+			{!shouldHide && <Navbar />}
 		</>
 	);
 };

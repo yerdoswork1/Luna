@@ -3,6 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 import Home from "@/pages/home/Home";
 import ServicePage from "@/pages/service-page/ServicePage";
+import ContactsPage from "@/pages/contacts-page/ContactsPage";
+import InfoPage from "@/pages/info-page/InfoPage";
 
 // import Home from "@/pages/home-page";
 // import ContactsPage from "@/pages/contactsPage/ContactsPage";
@@ -21,14 +23,22 @@ export const router = createBrowserRouter([
 			</Layout>
 		),
 	},
-	// {
-	// 	path: "/contacts",
-	// 	element: (
-	// 		<Layout>
-	// 			<ContactsPage />
-	// 		</Layout>
-	// 	),
-	// },
+	{
+		path: "/contacts",
+		element: (
+			<Layout>
+				<ContactsPage />
+			</Layout>
+		),
+	},
+	{
+		path: "/info",
+		element: (
+			<Layout>
+				<InfoPage />
+			</Layout>
+		),
+	},
 	// {
 	// 	path: "/services/:services",
 	// 	element: (

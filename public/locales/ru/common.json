@@ -8,6 +8,17 @@
 		"public-offer": "Публичная оферта",
 		"all-rights-reserved": "Все права защищены"
 	},
+	"info": {
+		"title": "Информация",
+		"privacy": "Политика конфиденциальности ->",
+		"public-offer": "Публичная оферта ->",
+		"corporate": "Корпоративный сайт ->"
+	},
+	"navbar": {
+		"home": "Главная",
+		"info": "Информация",
+		"contacts": "Контакты"
+	},
 	"home-page": {
 		"hero-section": {
 			"title": "Ощутите вкус Франции ",
@@ -36,7 +47,6 @@
 		"information": "Информация"
 	},
 	"services": {
-		"per-month": "в месяц",
 		"text-whatsapp": "Перейти",
 		"restaurant": {
 			"name": "Ресторан LunaRosa",

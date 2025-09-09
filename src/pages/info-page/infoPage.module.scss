@@ -1,0 +1,24 @@
+@use "@/styles/mixin-font" as *;
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    margin-bottom: 15px;
+    @include text-size(xs);
+  }
+
+  .linkInfo {
+    @include text-size(xs);
+    margin-bottom: 10px;
+
+    &:hover {
+      color: #43A047;
+    }
+
+    &:active {
+      color: #388E3C;
+    }
+  }
+}
