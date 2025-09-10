@@ -23,7 +23,7 @@ export default function ContactsContent() {
 				</a>
 
 				<a
-					href="https://t.me/@info_offiwebsite"
+					href="https://t.me/info_offiwebsite"
 					target="_blank"
 					rel="noopener noreferrer">
 					<img src={Telegram} /> {t("contactsPage.telegram")}
