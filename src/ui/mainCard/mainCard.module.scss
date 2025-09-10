@@ -48,7 +48,7 @@
 }
 
 .priceBlock {
-  @include text-size(xs, sm, xl, 2xl);
+  @include text-size(xs, null, sm, xl, 2xl);
   font-weight: 400;
 
 }

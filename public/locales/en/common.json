@@ -1,495 +1,317 @@
 {
 	"header": {
-		"contacts": "Contacts",
-		"directions": "Directions",
-		"professions": "Professions",
-		"subjects": "Subjects",
-		"languages": "Languages",
-		"music-and-dance": "Music and dance",
-		"music-dance": "Music and dance",
-		"preparatory-courses": "Preparatory courses",
-		"save": "Save"
-	},
-	"navbar": {
-		"home": "Home",
-		"services": "Services",
 		"contacts": "Contacts"
 	},
 	"footer": {
-		"info": "Information",
+		"corporate": "Corporate website",
 		"privacy": "Privacy Policy",
 		"public-offer": "Public Offer",
-		"contacts": "Contacts",
-		"all-rights-reserved": "All rights reserved",
-		"corporate": "Corporate website"
+		"all-rights-reserved": "All rights reserved"
+	},
+	"info": {
+		"title": "Information",
+		"privacy": "Privacy Policy ->",
+		"public-offer": "Public Offer ->",
+		"corporate": "Corporate website ->"
+	},
+	"navbar": {
+		"home": "Home",
+		"info": "Information",
+		"contacts": "Contacts"
 	},
 	"home-page": {
 		"hero-section": {
-			"title": "Learn Chinese ",
-			"in-ease": "with\u00a0ease",
-			"subtitle": "SkillShift — knowledge for life and career.",
-			"whatsapp": "Message on WhatsApp"
+			"title": "Experience the Taste of France ",
+			"in-ease": "at LunaRosa restaurant",
+			"subtitle": "Elegant atmosphere, refined cuisine and sophisticated style — everything you love about France",
+			"subtitle-short": "Everything you love about France",
+			"whatsapp": "Visit the restaurant"
 		},
 		"direction-carousel-section": {
-			"directions": "Directions",
+			"directions": "Catalog",
 			"see-all": "See all",
-			"professions": "Professions",
-			"subjects": "Subjects",
-			"languages": "Languages",
-			"music-and-dance": "Music and dance",
-			"preparatory-courses": "Preparatory courses"
+			"restaurant": "Restaurant",
+			"coffeeshop": "Caf\u00e9",
+			"fast-food": "Fast food",
+			"healthy-diet": "Healthy diet"
 		},
 		"open-your-potential": {
-			"title": "Unlock your potential with the SkillShift online school!",
-			"subtitle": "Study at your convenience from anywhere in the world! A flexible schedule, practical skills, and mentor support will help you reach your goals quickly.",
-			"whatsapp": "Message on WhatsApp"
+			"title": "Luna Restaurant Group",
+			"subtitle": "Since 2016, the Luna restaurant group has been delighting guests with delicious cuisine and quality service. We have cozy cafés, refined restaurants and quick bite venues.",
+			"whatsapp": "Go"
 		}
 	},
+	"contactsPage": {
+		"title": "Write or call — we will answer all your questions",
+		"whatsUp": "Message on WhatsApp",
+		"telegram": "Message on Telegram",
+		"information": "Information"
+	},
 	"services": {
-		"per-month": "per month",
-		"text-whatsapp": "Text on WhatsApp",
-		"preparatory-courses": {
-			"required": {
-				"name": "Compulsory Courses",
-				"desc-1": "As part of preparation for the UNT, students study three key disciplines: mathematical literacy, reading literacy, and the history of Kazakhstan. Our courses help systematically master the material, develop logical and critical thinking, learn to analyze texts, and confidently navigate historical topics. All of this builds a solid foundation for successfully passing the UNT and entering university."
-			},
-			"mathematic-informatic": {
-				"name": "Mathematics - Informatics",
-				"desc-1": "Designed for applicants planning to enter technical and IT specialties. The course includes advanced mathematics, basics of programming, working with algorithms, and logical thinking. Classes help systematically master key topics and confidently solve UNT tasks."
-			},
-			"mathematic-physics": {
-				"name": "Mathematics - Physics",
-				"desc-1": "Designed for applicants choosing engineering, technical, and natural science fields. The course includes advanced mathematics, solving physics problems, working with formulas, graphs, and laws. Classes help systematically master the material and confidently handle UNT tasks."
-			},
-			"biology-chemistry": {
-				"name": "Biology - Chemistry",
-				"desc-1": "Designed for applicants choosing medical, biological, or natural science fields. The course includes in-depth biology and chemistry, laboratory practices, and solving theoretical and practical problems. Classes help systematically master the material and successfully complete UNT assignments."
-			},
-			"ielts": {
-				"name": "IELTS",
-				"desc-1": "The IELTS preparation program provides effective methods and a deep understanding of the exam structure, which helps successfully pass the test and achieve desired results. We offer a comprehensive preparation system that includes practical tasks, test simulations, and individual consultations, significantly increasing your chances of obtaining your target score."
-			},
-			"toefl": {
-				"name": "TOEFL",
-				"desc-1": "The TOEFL preparation program offers effective techniques and a deep understanding of the exam structure, which helps successfully pass the test and achieve desired results. We provide a comprehensive training system that includes practice tasks, test simulations, and individual consultations, significantly increasing your chances of reaching your target score."
-			},
-			"sat": {
-				"name": "SAT",
-				"desc-1": "The SAT preparation program provides effective strategies and a deep understanding of the exam structure, which helps students successfully complete the test and achieve desired results. We offer a comprehensive preparation system, including practice tasks, test simulations, and individual consultations, which significantly boost your chances of reaching your target score."
-			},
-			"gre": {
-				"name": "GRE",
-				"desc-1": "The GRE preparation program helps applicants develop analytical writing, critical thinking, and mathematical problem-solving skills necessary for successful admission to graduate school. The program includes learning test-taking strategies, working with academic vocabulary, and analyzing complex texts. Special attention is given to essay writing and test practice."
-			},
-			"gmat": {
-				"name": "GMAT",
-				"desc-1": "The GMAT preparation program helps applicants develop analytical writing, critical thinking, and quantitative problem-solving skills required for admission to graduate school. The program covers test-taking strategies, academic vocabulary, and analysis of complex texts. Special attention is given to essay writing and practice tests."
-			},
-			"ielts-gre": {
-				"name": "IELTS - GRE",
-				"desc-1": "This program covers preparation for IELTS to confirm English proficiency and GRE to assess analytical and quantitative skills. Training includes exam task analysis, academic writing development, test strategies, and skills in structured argumentation. Special focus is placed on preparation for the quantitative and verbal sections of GRE."
-			},
-			"ielts-gmat": {
-				"name": "IELTS - GMAT",
-				"desc-1": "This program covers preparation for IELTS to confirm English proficiency and GMAT to assess analytical and quantitative skills. Training includes exam task analysis, academic writing development, test strategies, and skills in structured argumentation. Special focus is placed on preparation for the quantitative and verbal sections of GMAT."
-			},
-			"ielts-sat": {
-				"name": "IELTS - SAT",
-				"desc-1": "The combined IELTS and SAT preparation program helps applicants successfully pass the exams required for admission to foreign universities. Training includes learning strategies for tasks, information analysis, and decision-making skills. Regular mock tests and personalized recommendations improve results, while a comprehensive approach makes learning effective."
-			},
-			"toefl-gre": {
-				"name": "TOEFL - GRE",
-				"desc-1": "This program covers preparation for TOEFL to confirm English proficiency and GRE to assess analytical and quantitative skills. Training includes exam task analysis, academic writing development, test strategies, and skills in structured argumentation. Special focus is placed on preparation for the quantitative and verbal sections of GRE."
-			},
-			"toefl-gmat": {
-				"name": "TOEFL - GMAT",
-				"desc-1": "This program covers preparation for TOEFL to confirm English proficiency and GMAT to assess analytical and quantitative skills. Training includes exam task analysis, academic writing development, test strategies, and skills in structured argumentation. Special focus is placed on preparation for the quantitative and verbal sections of GMAT."
-			},
-			"toefl-sat": {
-				"name": "TOEFL - SAT",
-				"desc-1": "The combined TOEFL and SAT preparation program helps applicants successfully pass the exams required for admission to international universities. Training includes task strategies, information analysis, and structured decision-making. Regular mock exams and personalized feedback improve results, while a comprehensive approach makes learning efficient."
-			}
+		"text-whatsapp": "Go",
+		"restaurant": {
+			"name": "LunaRosa Restaurant",
+			"desc-1": "Our French restaurant is a corner of Paris in your city. We offer exquisite cuisine with a focus on fresh ingredients, delicate flavor combinations and classic French recipes. The menu includes tender croissants, cream soups, duck confit, French onion soup, tartare and desserts that have won hearts worldwide."
 		},
-		"music-dance": {
-			"piano": {
-				"name": "Piano",
-				"desc-1": "You will master classical pieces, modern hits, or even learn to improvise. We focus not only on technique but also help develop musical ear and teach the fundamentals of music.",
-				"desc-2": "Join our classes and immerse yourself in the world of music with joy!"
-			},
-			"classic-guitar": {
-				"name": "Classical Guitar",
-				"desc-1": "In the lessons, you will learn the basics of playing, performance techniques, and music theory. You will learn to play your favorite pieces or explore classical works. We will help you develop diverse skills and musical taste.",
-				"desc-2": "Join our classes and discover the world of music on the classical guitar!"
-			},
-			"violin": {
-				"name": "Violin",
-				"desc-1": "In the lessons, you will master the basics of playing technique, music theory, and various performance styles. You will study classical pieces, practice ensemble playing, which will teach you to interact with other musicians.",
-				"desc-2": "Join our classes and discover the magic of playing the violin!"
-			},
-			"drums": {
-				"name": "Drums",
-				"desc-1": "You will learn basic rhythms and playing techniques. Classes are conducted by qualified instructors who will help you develop a sense of rhythm, coordination, and musical literacy.",
-				"desc-2": "Join us and start your journey into the world of percussion music!"
-			},
-			"domra": {
-				"name": "Domra",
-				"desc-1": "You will learn basic playing techniques, chords, and melodies, as well as master various performance styles. Experienced instructors will help you develop musical ear, technique, and a sense of rhythm.",
-				"desc-2": "Join us and discover the world of domra music!"
-			},
-			"choreography": {
-				"name": "Choreography",
-				"desc-1": "You will master classical elements, strengthen your feet and back, and prepare the foundation for other dance styles. Experienced instructors will help you develop flexibility, coordination, and a sense of rhythm.",
-				"desc-2": "Join us and unlock your dance potential!"
-			},
-			"hip-hop": {
-				"name": "Hip-Hop",
-				"desc-1": "You will master the main styles of hip-hop, such as breaking, locking, and popping, and learn to create your own choreographic combinations.",
-				"desc-2": "Join us and unleash your creativity in hip-hop dance!"
-			},
-			"tango": {
-				"name": "Tango",
-				"desc-1": "You will master the basic steps and techniques, learn to feel the music and interact with your partner. Experienced instructors will help you develop coordination and emotional expressiveness.",
-				"desc-2": "Join us and discover the magic of tango!"
-			},
-			"break-dance": {
-				"name": "Breakdance",
-				"desc-1": "You will master the basic elements of breakdance, including top-rock, down-rock, freezes, and pauses, and learn to create your own combinations. Experienced instructors will help you develop strength, flexibility, and coordination.",
-				"desc-2": "Join us and become part of the exciting world of breakdance!"
-			},
-			"shaffle": {
-				"name": "Shuffle",
-				"desc-1": "You will master the basic steps and techniques of shuffle and learn to combine them with various musical styles. Experienced instructors will help you develop a sense of rhythm and coordination.",
-				"desc-2": "Join us and discover the fascinating world of shuffle dance!"
-			},
-			"pop-vocals": {
-				"name": "Pop Vocals",
-				"desc-1": "You will master basic breathing, intonation, and articulation techniques, as well as learn to work with various musical styles. Experienced instructors will help you develop vocal abilities and musical ear.",
-				"desc-2": "Join us and start your journey to musical excellence!"
-			},
-			"classical-vocals": {
-				"name": "Classical Vocals",
-				"desc-1": "You will master basic breathing, intonation, and articulation techniques. Experienced instructors will help you develop vocal abilities and musical ear.",
-				"desc-2": "Join us and start your journey to musical excellence!"
-			}
+		"coffeeshop": {
+			"name": "LunaBello Caf\u00e9",
+			"desc-1": "Our café is a cozy place for meetings and inspiration. We offer aromatic coffee from selected beans, prepared using classic and signature recipes. The menu includes fresh pastries, desserts, light snacks and drinks that create the perfect mood for any day."
 		},
-		"professions": {
-			"product-manager": {
-				"name": "Product Manager",
-				"desc-1": "The course combines theory and practice of digital product management at all stages of its development. You will master market, competitor, and target audience analysis using digital tools, as well as learn to manage the product lifecycle and coordinate the team effectively."
-			},
-			"java-back-end-developer": {
-				"name": "Java Back-End Developer",
-				"desc-1": "The course explores the Java programming language for creating the server side of websites and applications. You will master industry-standard frameworks and libraries, understand classes, inheritance, and interfaces, and study object-oriented programming, working with collections, exception handling, and multithreading."
-			},
-			"react-front-end-developer": {
-				"name": "React Front-End Developer",
-				"desc-1": "The course provides theoretical knowledge, practical skills, and modern approaches in developing interactive user interfaces using the JavaScript library — React. You will study data structure algorithms and the component-based approach in development for creating large components from smaller ones."
-			},
-			"flutter-mobile-developer": {
-				"name": "Flutter Mobile Developer",
-				"desc-1": "The course provides theoretical knowledge and practical skills in developing cross-platform mobile applications using the Flutter framework and the Draft programming language. You will learn to create applications for different operating systems and web applications using a single codebase, and master working with databases."
-			},
-			"ui-ux-designer ": {
-				"name": "UI/UX Designer",
-				"desc-1": "The course covers the basics of studying user experience and needs, as well as designing clear and convenient digital products. You will master all stages of the design process and the designer's role in each, study methods for researching the target audience, and tools for designing and prototyping necessary for the job."
-			},
-			"interior-exterior-designer": {
-				"name": "Interior and Exterior Designer",
-				"desc-1": "The course covers the basics of designing functional and aesthetic interiors. You will master creating conceptual sketches, drawings, and 3D visualizations in 3DsMax and Revit, and go through all stages — from developing a style concept to selecting furniture, materials, and lighting."
-			},
-			"fashion-designer": {
-				"name": "Fashion Designer",
-				"desc-1": "The course covers the basics and principles of creating fashion design and trends in the industry. You will study the process of creating sketches of clothing models and prints, including 3D modeling, learn to select materials and accessories, and explore all stages of designing, sewing, and launching production."
-			},
-			"furniture-designer": {
-				"name": "Furniture Designer",
-				"desc-1": "You will study the entire process of creating furniture — from the idea and 3D modeling in SketchUp to selecting materials and production technologies. Master the skills of designing stylish and practical interior items, relying on modern trends and the specifics of various materials."
-			}
+		"fast-food": {
+			"name": "LunaBite Fast Food",
+			"desc-1": "Our fast food is quick, tasty and satisfying. We prepare burgers, sandwiches, fries and snacks using only fresh ingredients so that every bite is bright and full of flavor. The menu features classic hits and signature dishes the whole family will enjoy."
 		},
-		"subjects": {
-			"biology": {
-				"name": "Biology",
-				"desc-1": "The biology course for secondary school is aimed at studying living nature, its patterns, and diversity. It covers the main sections of biology that help students understand the structure, functions, and interactions of living organisms, as well as their role in ecosystems."
-			},
-			"chemistry": {
-				"name": "Chemistry",
-				"desc-1": "The chemistry course for secondary school is aimed at studying substances, their properties, structure, and transformations. It introduces students to basic chemical concepts, laws, and processes, and develops skills in conducting experiments and solving problems."
-			},
-			"geography": {
-				"name": "Geography",
-				"desc-1": "The geography course for secondary school is aimed at forming students' understanding of the Earth's nature, population, economy, and environmental issues. It covers general geographical patterns and the characteristics of individual regions and countries."
-			},
-			"informatics": {
-				"name": "Informatics",
-				"desc-1": "The informatics course forms basic knowledge and skills in the field of information technology and computer work. It covers theoretical foundations and practical aspects necessary for understanding and using modern technologies."
-			},
-			"math": {
-				"name": "Mathematics",
-				"desc-1": "The mathematics course is aimed at developing logical thinking, problem-solving skills, and applying knowledge in everyday life. It covers the main sections of mathematics that form the foundation for further study of exact sciences."
-			},
-			"painting": {
-				"name": "Painting",
-				"desc-1": "The painting course for secondary school is aimed at forming students' understanding of artistic styles, techniques, outstanding masters, and their works. It covers the basics of fine art, the development of painting in different eras, and introduces the cultural heritage of various countries and peoples."
-			},
-			"physics": {
-				"name": "Physics",
-				"desc-1": "The physics course for secondary school is aimed at forming students' basic knowledge of physical phenomena, laws, and methods of studying them. It covers the main sections of physics that help understand the world around us and prepare for further education."
-			},
-			"robotics": {
-				"name": "Robotics",
-				"desc-1": "Master the creation and programming of robots: from the basics of electronics and mechanics to developing control algorithms. Learn to assemble functional models, work with microcontrollers and sensors."
-			}
-		},
-		"languages": {
-			"arab": {
-				"name": "Arabic",
-				"desc-1": "Arabic language courses are suitable for any level — from beginners to advanced. The program covers grammar, vocabulary, and the development of reading, writing, and listening skills. You will immerse yourself in different dialects, get acquainted with Arabic culture, and learn in an interactive format."
-			},
-			"chinese": {
-				"name": "Chinese",
-				"desc-1": "In Chinese language courses, you will not only master basic and grammatical structures. You will gain unique knowledge about Chinese writing, including characters. You will learn to read and write in Chinese, which is an element of deep understanding of culture and history. Master the basics of pronunciation and tones, which are especially important for perception and conveying meaning."
-			},
-			"english": {
-				"name": "English",
-				"desc-1": "Courses for people who want to communicate freely. You will learn to speak with foreigners and native speakers, improve your pronunciation, understand speech by ear, and confidently maintain a conversation in English. You will master basic conversational structures, expand your vocabulary, and overcome the language barrier. The classes include practical exercises."
-			},
-			"kazakh": {
-				"name": "Kazakh",
-				"desc-1": "Our online Kazakh language courses are an opportunity to learn one of the oldest and most beautiful languages in the world. The program is suitable for all levels — from beginners to advanced. The flexible learning format allows you to master the language at your convenience while immersing yourself in the culture and traditions of Kazakhstan. Special emphasis is placed on developing conversational skills."
-			},
-			"russian": {
-				"name": "Russian",
-				"desc-1": "We offer engaging and effective learning, specially designed for those who want to start learning Russian from scratch or improve their existing knowledge. Special attention is paid to developing oral communication skills. During the course, you will learn to correctly construct sentences typical of the Russian language."
-			},
-			"turk": {
-				"name": "Turkish",
-				"desc-1": "Courses for those who want to communicate freely in Turkish! You will learn to converse with native speakers, improve your pronunciation, easily understand speech by ear, and confidently maintain a conversation. During the course, you will learn to correctly construct sentences and idioms typical of the Turkish language. Master the basics of pronunciation and tones."
-			}
+		"healthy-diet": {
+			"name": "LunaVita Healthy Dining",
+			"desc-1": "Our healthy dining restaurant offers tasty food without compromising on health. We prepare dishes from natural and fresh ingredients, maintaining a balance of proteins, fats and carbohydrates. The menu includes salads, bowls, healthy desserts and smoothies for those who value taste and care for their body."
 		}
 	},
 	"privacy": {
-		"title": "Privacy Policy",
-		"date": "14.12.2019",
-		"intro": "This Privacy Policy (hereinafter referred to as the Privacy Policy) applies to all information that the company 'SkillShift', located at the domain names skillshift.offiwebsite.com, may receive about the User while using the website.",
+		"title": "PRIVACY POLICY",
+		"date": "15.07.2020",
+		"intro": "14.12.2019 This Privacy Policy (hereinafter – the Privacy Policy) applies to all information that the company “Luna”, located at the domain names <a href='https://luna.offiwebsite.com'>https://luna.offiwebsite.com</a>, may obtain about the User while using the website.",
 		"sections": {
-			"1": {
+			"terms": {
 				"title": "1. DEFINITIONS",
 				"items": {
-					"1.1.1": "1.1.1. “Website Administration” – authorized employees managing the site on behalf of the Organization, who organize and (or) carry out the processing of personal data.",
-					"1.1.2": "1.1.2. “Personal data” – any information relating directly or indirectly to an identified or identifiable individual.",
-					"1.1.3": "1.1.3. “Processing of personal data” – any action or set of actions with personal data, including collection, recording, storage, updating, use, transfer, anonymization, deletion.",
-					"1.1.4": "1.1.4. “Confidentiality of personal data” – a mandatory requirement to prevent distribution without the consent of the data subject.",
-					"1.1.5": "1.1.5. “Website User” (hereinafter referred to as the User) – a person who has access to the Website via the Internet and uses the Website.",
-					"1.1.6": "1.1.6. “Cookies” – a small piece of data sent by a web server and stored on the user’s computer.",
-					"1.1.7": "1.1.7. “IP address” – a unique network address of a node in a computer network."
+					"1": "1.1. “Site Administration” – authorized site management employees acting on behalf of the company “Luna”, who organize and carry out the processing of personal data.",
+					"2": "1.2. “Personal data” – any information relating to an identified or identifiable natural person.",
+					"3": "1.3. “Processing of personal data” – any action (operation) or set of actions (operations) performed with or without automation tools on personal data, including collection, recording, systematization, accumulation, storage, updating (modification), extraction, use, transfer (distribution, provision, access), anonymization, blocking, deletion and destruction of personal data.",
+					"4": "1.4. “Confidentiality of personal data” – an obligation for the Operator or any person who has gained access to personal data not to allow their disclosure without the consent of the subject of personal data or other legal basis.",
+					"5": "1.5. “Website User” – a person who has access to the website via the Internet and uses the site.",
+					"6": "1.6. “Cookies” – a small piece of data sent by a web server and stored on the user's computer, which the web client or browser sends back to the web server in an HTTP request when attempting to open a page of the corresponding site.",
+					"7": "1.7. “IP address” – a unique network address of a node in an IP-based computer network."
 				}
 			},
-			"2": {
-				"title": "2. CONSENT TO TERMS",
+			"agreement": {
+				"title": "2. AGREEMENT TO THE TERMS",
 				"items": {
-					"2.1": "2.1. The User’s use of the website means acceptance of this Privacy Policy.",
-					"2.2": "2.2. If the User does not agree with the terms of the Privacy Policy, they must stop using the website.",
-					"2.3": "2.3. This Privacy Policy applies to all websites at skillshift.offiwebsite.com. The Company does not control third-party websites.",
-					"2.4": "2.4. The Website Administration does not verify the accuracy of personal data provided by the User."
+					"1": "2.1. Use of the site by the User signifies consent to this Privacy Policy.",
+					"2": "2.2. If the User does not agree with the terms of the Policy, the User must stop using the site.",
+					"3": "2.3. This Policy applies to all sites https://luna.offiwebsite.com (“Luna Group”). The Company does not control and is not responsible for third-party sites that the User can access via links on the site.",
+					"4": "2.4. The Site Administration does not verify the accuracy of personal data provided by the User."
 				}
 			},
-			"3": {
+			"subject": {
 				"title": "3. SUBJECT OF THE PRIVACY POLICY",
 				"items": {
-					"3.1": "3.1. The Privacy Policy establishes the obligations of the Administration to protect the confidentiality of the User’s personal data.",
-					"3.2": "3.2. Personal data is provided by the User during registration or order placement and includes:",
-					"3.2.1": "3.2.1. last name, first name, patronymic;",
-					"3.2.2": "3.2.2. User’s contact phone number;",
-					"3.2.3": "3.2.3. email address.",
-					"3.3": "3.3. The Website also collects data automatically transmitted:",
-					"3.3.a": "• IP address;",
-					"3.3.b": "• cookies information;",
-					"3.3.c": "• browser information;",
-					"3.3.d": "• access time;",
-					"3.3.e": "• address of the page with the advertising block;",
-					"3.3.f": "• referrer (address of the previous page).",
-					"3.3.1": "3.3.1. Disabling cookies may limit access to parts of the site.",
-					"3.3.2": "3.3.2. The Website collects IP address statistics to resolve technical issues and monitor payments.",
-					"3.4": "3.4. Other personal information is stored and not disclosed except in cases specified by this Policy."
+					"1": "3.1. This Privacy Policy establishes the obligations of the Site Administration to maintain confidentiality and protect personal data provided by the User upon request of the Site Administration when registering on the site or placing an order for purchasing Goods.",
+					"2": "3.2. Personal data permitted for processing under this Policy are provided by the User by filling out the registration form on the Sites https://lunagroup.offiwebsite.com and include the following information: 3.2.1. last name, first name, patronymic; 3.2.2. contact phone number; 3.2.3. email address (e-mail).",
+					"3": "3.3. The Site protects Data that is automatically transmitted during viewing of advertising blocks and when visiting pages with a tracking script ('pixel') installed: • IP address; • cookies information; • browser information (or other program used to access ads); • access time; • address of the page where the ad block is located; • referrer (previous page address).",
+					"4": "3.3.1. Disabling cookies may make it impossible to access parts of the site that require authorization.",
+					"5": "3.3.2. The online store collects statistics about visitors' IP addresses. This information is used to identify and resolve technical problems and to monitor the legality of financial payments.",
+					"6": "3.4. Any other personal information not specified above (usage history, browsers and operating systems used, etc.) shall be securely stored and not disclosed, except in cases provided for in clauses 5.2 and 5.3 of this Privacy Policy."
 				}
 			},
-			"4": {
+			"purposes": {
 				"title": "4. PURPOSES OF COLLECTING PERSONAL INFORMATION",
 				"items": {
-					"4.1.1": "4.1.1. Identification of the User to complete a purchase and contract.",
-					"4.1.2": "4.1.2. Providing access to personalized Website resources.",
-					"4.1.3": "4.1.3. Feedback with the User (notifications, requests).",
-					"4.1.4": "4.1.4. Determining the User’s location for security purposes.",
-					"4.1.5": "4.1.5. Verifying the accuracy of User’s data.",
-					"4.1.6": "4.1.6. Processing and receiving payments, tax confirmations.",
-					"4.1.7": "4.1.7. Providing client and technical support.",
-					"4.1.8": "4.1.8. Providing updates, special offers, news.",
-					"4.1.9": "4.1.9. Advertising activities with the User’s consent.",
-					"4.1.10": "4.1.10. Providing access to partner websites and services."
+					"1": "4.1.1. Identification of the User registered on the site for placing an order and/or concluding a sales contract remotely with Luna Group.",
+					"2": "4.1.2. Providing the User access to personalized resources of the Site.",
+					"3": "4.1.3. Establishing feedback with the User, including sending notifications and requests regarding site use and service provision, processing user inquiries and applications.",
+					"4": "4.1.4. Determining the User's location to ensure security and prevent fraud.",
+					"5": "4.1.5. Confirming the accuracy and completeness of personal data provided by the User.",
+					"6": "4.1.6. Processing and receiving payments, confirming tax or tax benefits, disputing payments, determining the User's eligibility for a credit line.",
+					"7": "4.1.7. Providing effective customer and technical support for issues related to site usage.",
+					"8": "4.1.8. With the User's consent, providing product updates, special offers, pricing information, newsletters and other information on behalf of the site or partners.",
+					"9": "4.1.9. Carrying out advertising activities with the User's consent.",
+					"10": "4.1.10. Providing the User access to partner sites or services in order to obtain products, updates and services."
 				}
 			},
-			"5": {
-				"title": "5. METHODS AND TERMS OF PROCESSING",
+			"processing": {
+				"title": "5. METHODS AND PERIODS OF PROCESSING PERSONAL INFORMATION",
 				"items": {
-					"5.1": "5.1. Processing of personal data is carried out without time limitation, by any legal means.",
-					"5.2": "5.2. The Administration has the right to transfer data to third parties (courier services, postal organizations, communications) solely for fulfilling the User’s order.",
-					"5.3": "5.3. Personal data may be transferred to state authorities of the Republic of Kazakhstan under the law.",
-					"5.4": "5.4. In case of loss or disclosure of personal data, the Administration informs the User.",
-					"5.5": "5.5. The Administration takes measures to protect data from unlawful access and other threats.",
-					"5.6": "5.6. The Administration and the User jointly take measures to prevent losses due to data loss."
+					"1": "5.1. Processing of the User's personal data is carried out without limitation of the period by any lawful means, including automated information systems or without such means.",
+					"2": "5.2. The User agrees that the Site Administration has the right to transfer personal data to third parties, in particular courier services, postal organizations and telecom operators, exclusively for the purpose of fulfilling the User's order placed on the online store.",
+					"3": "5.3. Personal data may be transferred to authorized state bodies of the Republic of Kazakhstan only on the grounds and in the manner established by the legislation of the Republic of Kazakhstan.",
+					"4": "5.4. In case of loss or disclosure of personal data, the Site Administration informs the User about the loss or disclosure of personal data.",
+					"5": "5.5. The Site Administration takes necessary organizational and technical measures to protect the User's personal information from unlawful or accidental access, destruction, modification, blocking, copying, distribution, as well as other unlawful actions by third parties.",
+					"6": "5.6. The Site Administration together with the User takes all necessary measures to prevent losses or other negative consequences caused by loss or disclosure of the User's personal data."
 				}
 			},
-			"6": {
+			"obligations": {
 				"title": "6. OBLIGATIONS OF THE PARTIES",
 				"items": {
-					"6.1.1": "6.1.1. The User must provide personal data necessary to use the Website.",
-					"6.1.2": "6.1.2. The User must update and supplement personal data when changes occur.",
-					"6.2.1": "6.2.1. The Administration must use the information only for the purposes specified in this Policy.",
-					"6.2.2": "6.2.2. The Administration must keep the information confidential and not disclose it without the User’s consent.",
-					"6.2.3": "6.2.3. The Administration must take precautions to protect the data.",
-					"6.2.4": "6.2.4. The Administration must block personal data upon detection of inaccuracies."
+					"1": "6.1.1. The User is obliged to provide personal data necessary for using the Site.",
+					"2": "6.1.2. The User must update and supplement the provided personal data in case of changes.",
+					"3": "6.2.1. The Site Administration is obliged to use the obtained information exclusively for the purposes specified in clause 4 of this Privacy Policy.",
+					"4": "6.2.2. Ensure storage of confidential information in secret, not to disclose it without prior written permission of the User, and not to sell, exchange, publish or otherwise disclose personal data of the User, except in cases specified in clauses 5.2 and 5.3 of this Privacy Policy.",
+					"5": "6.2.3. Take precautionary measures to protect the confidentiality of personal data according to the procedures commonly used for such protection in business practice.",
+					"6": "6.2.4. Block personal data relating to the corresponding User from the moment of request by the User or his legal representative or authorized body for protection of personal data for the period of verification in case of detection of unreliable personal data or unlawful actions."
 				}
 			},
-			"7": {
-				"title": "7. LIABILITY OF THE PARTIES",
+			"responsibility": {
+				"title": "7. LIABILITY",
 				"items": {
-					"7.1": "7.1. The Administration is responsible for User’s losses due to unlawful use of personal data, except in cases specified in the Policy.",
-					"7.2": "7.2. The Administration is not responsible if the information:",
-					"7.2.1": "7.2.1. became public before loss or disclosure;",
-					"7.2.2": "7.2.2. was received from a third party before it was provided to the Administration;",
-					"7.2.3": "7.2.3. was disclosed with the User’s consent."
+					"1": "7.1. The Site Administration that has failed to fulfill its obligations is liable for losses suffered by the User due to unlawful use of personal data in accordance with the legislation of the Republic of Kazakhstan, except for cases specified in clauses 5.2 and 5.3 of this Privacy Policy.",
+					"2": "7.2. In case of loss or disclosure of Confidential Information the Site Administration is not liable if: 7.2.1. it became public before its loss or disclosure; 7.2.2. it was received from a third party before receipt by the Site Administration; 7.2.3. it was disclosed with the User's consent."
 				}
 			},
-			"8": {
+			"disputes": {
 				"title": "8. DISPUTE RESOLUTION",
 				"items": {
-					"8.1": "8.1. Before going to court, submitting a claim is mandatory.",
-					"8.2": "8.2. The recipient of the claim must respond within 30 calendar days.",
-					"8.3": "8.3. If no agreement is reached, the dispute is considered by the court of the Republic of Kazakhstan.",
-					"8.4": "8.4. The current legislation of the Republic of Kazakhstan applies."
+					"1": "8.1. Before going to court with a claim arising from relations between the User and the Site Administration, it is mandatory to submit a claim (a written proposal for voluntary settlement of the dispute).",
+					"2": "8.2. The recipient of the claim shall notify the claimant in writing of the results of the claim consideration within 30 calendar days from the date of receipt.",
+					"3": "8.3. If agreement is not reached, the dispute will be referred to a court in accordance with the current legislation of the Republic of Kazakhstan.",
+					"4": "8.4. This Privacy Policy and relations between the User and the Site Administration are governed by the current legislation of the Republic of Kazakhstan."
 				}
 			},
-			"9": {
-				"title": "9. ADDITIONAL CONDITIONS",
+			"extra": {
+				"title": "9. ADDITIONAL TERMS",
 				"items": {
-					"9.1": "9.1. The Administration may change the Policy without the User’s consent.",
-					"9.2": "9.2. The new Policy comes into force from the moment it is published on the Website.",
-					"9.3": "9.3. All questions regarding the Policy should be directed via the online store’s website section.",
-					"9.4": "9.4. The current Policy is available at https://skillshift.offiwebsite.com/privacy-policy."
+					"1": "9.1. The Site Administration has the right to make changes to this Privacy Policy without the User's consent.",
+					"2": "9.2. The new Privacy Policy comes into force from the moment of its posting on the Site, unless otherwise provided by the new version.",
+					"3": "9.3. All suggestions or questions regarding this Privacy Policy should be submitted through the appropriate section of the online store website.",
+					"4": "9.4. The current Privacy Policy is posted at: <a href='https://luna.offiwebsite.com/privacy-policy'>https://luna.offiwebsite.com/privacy-policy</a>, luna.com/privacy-policy."
 				}
 			}
 		}
 	},
 	"publicOffer": {
-		"title": "PUBLIC OFFER AGREEMENT",
+		"title": "Public Offer Agreement for the Sale of Services and Courses",
+		"date": "",
+		"intro": "This User Agreement (hereinafter — the Agreement) applies to the site “Lunna” and governs the relations between the Site Administration and the User.",
 		"sections": {
 			"1": {
 				"title": "1. GENERAL PROVISIONS",
 				"items": {
-					"1.1": "1.1. This User Agreement (hereinafter referred to as the Agreement) applies to the 'SkillShift' website, located at skillshift.offiwebsite.com and all related sites associated with skillshift.offiwebsite.com",
-					"1.2": "1.2. The 'SkillShift' website (hereinafter referred to as the Site) is owned by IP 'Myrza'",
-					"1.3": "1.3. This Agreement regulates the relationship between the Site Administration of 'SkillShift' (Site Administration) and the User of this Site.",
-					"1.4": "1.4. The Site Administration reserves the right to change, add or remove sections of this Agreement at any time without notifying the User.",
+					"1.1": "1.1. This User Agreement (hereinafter — the Agreement) applies to the site “Lunna”, located at https://luna.offiwebsite.com and to all related sites.",
+					"1.2": "1.2. The “Luna” site (hereinafter — the Site) is owned by the sole proprietor (IP) “Myrza”.",
+					"1.3": "1.3. This Agreement governs the relations between the Site Administration and the User of the Site.",
+					"1.4": "1.4. The Site Administration reserves the right at any time to change, add or remove provisions of this Agreement without notifying the User.",
 					"1.5": "1.5. Continued use of the Site by the User constitutes acceptance of the Agreement and any changes made to it.",
-					"1.6": "1.6. The User is personally responsible for checking this Agreement for changes."
+					"1.6": "1.6. The User is personally responsible for checking the Agreement for amendments."
 				}
 			},
 			"2": {
-				"title": "2. DEFINITION OF TERMS",
+				"title": "2. DEFINITIONS",
 				"items": {
-					"2.1.1": "2.1.1. 'SkillShift' — Products and Services located at skillshift.offiwebsite.com, operating via the Internet resource and associated services.",
-					"2.1.2": "2.1.2. SkillShift — websites containing information about Products and Services, Sellers, allowing selection, ordering, and/or purchase of Products and Services",
-					"2.1.3": "2.1.3. SkillShift Website Administration — authorized employees managing the Site on behalf of IP 'Myrza'",
-					"2.1.4": "2.1.4. SkillShift Website User (hereinafter referred to as the User) — a person who has access to the Site via the Internet and uses the Site.",
-					"2.1.5": "2.1.5. Content of the SkillShift Site (hereinafter referred to as Content) — protected results of intellectual activity, including video materials, educational texts, titles, prefaces, annotations, articles, illustrations, covers, graphic, text, photographic, derivative, composite and other works, user interfaces, as well as design, structure, appearance, overall style and layout of such Content included in the Site, and other intellectual property objects."
+					"2.1": "2.1. The terms listed below have the following meanings for the purposes of this Agreement:",
+					"2.1.1": "2.1.1. “Luna” — Products and Services located at the domain names https://luna.offiwebsite.com, https://luna.offiwebsite.com operating via the Internet resource and related services.",
+					"2.1.2": "2.1.2. Luna — websites containing information about Products and Services, Sellers, allowing selection, ordering and/or purchasing of Products and Services.",
+					"2.1.3": "2.1.3. Site Administration — authorized employees responsible for managing the Site acting on behalf of IP “Myrza”.",
+					"2.1.4": "2.1.4. Site User (hereinafter — User) — a person who has access to the Site via the Internet and uses the Site.",
+					"2.1.5": "2.1.5. Site Content — protected results of intellectual activity including video materials, training texts, their titles, forewords, annotations, articles, illustrations, covers, graphic, text, photographic, derivative and composite works, user interfaces, as well as design, structure, appearance, general style and layout of the Site content and other intellectual property objects."
 				}
 			},
 			"3": {
 				"title": "3. SUBJECT OF THE AGREEMENT",
 				"items": {
-					"3.1": "3.1. The subject of this Agreement is to provide the User with access to the materials and services available on the SkillShift Site.",
-					"3.1.1": "3.1.1. The online store provides the User with the following types of services: access to paid electronic content with the right to purchase Products and Services on skillshift.offiwebsite.com; access to information about the Service and to purchase the Service on a paid basis; access to individual consultations on a paid basis according to the tariffs on the SkillShift Site.",
-					"3.1.2": "3.1.2. This Agreement applies to all existing SkillShift services and any future modifications or additional services.",
-					"3.2": "3.2. Access to open sections of the SkillShift site is provided free of charge.",
+					"3.1": "3.1. The subject of this Agreement is to provide the User with access to the materials and services contained on the Site.",
+					"3.1.1": "3.1.1. The online store provides the User with the following services: access to paid electronic content with the right to purchase Products and Services on the Sites https://luna.offiwebsite.com; access to information about Services and purchasing Services on a paid basis; access to individual paid consultations in accordance with tariffs on the Luna Site.",
+					"3.1.2": "3.1.2. This Agreement covers all existing (currently operating) services of Luna, as well as any of their subsequent modifications and additional services that may appear in the future.",
+					"3.2": "3.2. Access to the open sections of the Luna site is provided free of charge.",
 					"3.3": "3.3. This Agreement is a public offer. By accessing the Site, the User is deemed to have joined this Agreement.",
-					"3.4": "3.4. The use of the Site's materials and services is governed by the laws of the Republic of Kazakhstan."
+					"3.4": "3.4. The use of materials and services of the Site is governed by the laws of the Republic of Kazakhstan."
 				}
 			},
 			"4": {
 				"title": "4. RIGHTS AND OBLIGATIONS OF THE PARTIES",
 				"items": {
-					"4.1": "4.1. The Site Administration has the right to change the rules of use, restrict access, and change the payment for access to paid content.",
-					"4.2": "4.2. The User has the right to access paid content, use services, ask questions, and use the Site within legal limits.",
-					"4.3": "4.3. The User undertakes to provide accurate information, respect intellectual property rights, not disrupt the Site, not distribute confidential information, and not use the Site for prohibited purposes.",
-					"4.4": "4.4. The User is prohibited from using automated methods to access the Site, violating its operation, obtaining unauthorized access, violating security, or using the Site for illegal purposes."
+					"4.1": "4.1. The Site Administration is entitled to:",
+					"4.1.1": "4.1.1. Change the rules of use of the Site as well as change the content of the Site. Changes take effect from the moment of publication of the new version of the Agreement on the Site.",
+					"4.1.2": "4.1.2. Restrict access to the Site in case of User's violation of the Agreement.",
+					"4.1.3": "4.1.3. Change the amount of payment charged for providing access to paid content on the Luna site. Changes in cost will not apply to Users who have already purchased content at the time of the change, except for cases expressly provided by the Site Administration.",
+					"4.2": "4.2. The User is entitled to:",
+					"4.2.1": "4.2.1. Obtain access to the paid part of the Site content after complying with registration and payment requirements.",
+					"4.2.2": "4.2.2. Use all services available on the Site and purchase any Services offered on the Site.",
+					"4.2.3": "4.2.3. Ask any questions related to Luna services.",
+					"4.2.4": "4.2.4. Use the Site solely for purposes and in a manner provided by the Agreement and not prohibited by the laws of the Republic of Kazakhstan.",
+					"4.3": "4.3. The User undertakes to:",
+					"4.3.1": "4.3.1. Provide, upon request of the Site Administration, additional information that is directly related to the services provided by the Site.",
+					"4.3.2": "4.3.2. Respect the proprietary and non-proprietary rights of authors and other rightholders when using the Site.",
+					"4.3.3": "4.3.3. Not take actions that may be considered to disrupt the normal operation of the Site.",
+					"4.3.4": "4.3.4. Not disseminate any confidential information protected by the laws of the Republic of Kazakhstan about individuals or legal entities using the Site.",
+					"4.3.5": "4.3.5. Avoid any actions that may breach the confidentiality of information protected by the laws of the Republic of Kazakhstan.",
+					"4.3.6": "4.3.6. Not use the Site to distribute advertising information except with the consent of the Site Administration.",
+					"4.3.7": "4.3.7. Not use the Site services for the purpose of:",
+					"4.3.7.1": "4.3.7.1. uploading content that is illegal, violates the rights of third parties; promotes violence, cruelty, hatred and/or discrimination based on race, nationality, gender, religion or social status; contains false information and/or insults directed at specific individuals, organizations or authorities.",
+					"4.3.7.2": "4.3.7.2. incitement to commit unlawful acts, as well as assisting persons whose actions aim to violate restrictions and prohibitions in force on the territory of the Republic of Kazakhstan.",
+					"4.3.7.3": "4.3.7.3. violation of the rights of minors or causing them harm in any form.",
+					"4.3.7.4": "4.3.7.4. infringement of the rights of minorities.",
+					"4.3.7.5": "4.3.7.5. impersonation of another person or a representative of an organization or community without sufficient authority, including impersonation of employees of this online store.",
+					"4.3.7.6": "4.3.7.6. misleading statements about the properties and characteristics of any Service from the Luna catalog posted on the Site.",
+					"4.3.7.7": "4.3.7.7. incorrect comparisons of a Service and formation of negative attitudes toward persons who do or do not use certain Services, or condemnation of such persons.",
+					"4.4": "4.4. The User is prohibited from:",
+					"4.4.1": "4.4.1. Using any devices, programs, procedures, algorithms and methods, automatic devices or equivalent manual processes for accessing, acquiring, copying or tracking Site content.",
+					"4.4.2": "4.4.2. Disrupting the proper functioning of the Site.",
+					"4.4.3": "4.4.3. Circumventing the Site's navigation structure to obtain or attempt to obtain any information, documents or materials by means not specifically provided by the Site services.",
+					"4.4.4": "4.4.4. Unauthorized access to Site functions, any other systems or networks related to the Site, as well as to any services offered on the Site.",
+					"4.4.5": "4.4.5. Violating the security or authentication system on the Site or any network related to the Site.",
+					"4.4.6": "4.4.6. Performing reverse searches, tracking or attempting to track any information about any other Site User.",
+					"4.4.7": "4.4.7. Using the Site and its Content for any purposes prohibited by the laws of the Republic of Kazakhstan, as well as inciting any illegal activity or other actions that violate the rights of the Luna site or other persons."
 				}
 			},
 			"5": {
-				"title": "5. USE OF skillshift.offiwebsite.com",
+				"title": "5. USE OF THE SITE https://luna.offiwebsite.com",
 				"items": {
-					"5.1": "5.1. The Site and its Content are owned and managed by the Site Administration.",
-					"5.2": "5.2. Content may not be copied, published, reproduced, transmitted, or distributed without written consent of the Site Administration.",
-					"5.3": "5.3. The Site Content is protected by copyright, trademark law, and other intellectual property rights.",
-					"5.4": "5.4. Acquisition of any Service requires creating a User account.",
-					"5.5": "5.5. The User is responsible for maintaining the confidentiality of their account.",
-					"5.6": "5.6. The User must immediately notify the Site Administration of unauthorized use of their account.",
-					"5.7": "5.7. The Site Administration has the right to annul accounts inactive for more than 24 months.",
-					"5.8": "5.8. This Agreement applies to all additional terms regarding purchase and services.",
-					"5.9": "5.9. Information on the Site should not be interpreted as an amendment to this Agreement.",
-					"5.10": "5.10. The Site Administration may change the list of services and prices without notice."
+					"5.1": "5.1. The Site and the Content that is part of the Site belong to and are managed by the Site Administration.",
+					"5.2": "5.2. Site content may not be copied, published, reproduced, transmitted or distributed in any way, or posted on the global Internet without prior written consent of the Site Administration.",
+					"5.3": "5.3. Site content is protected by copyright, trademark law and other intellectual property rights and unfair competition legislation.",
+					"5.4": "5.4. The purchase of any Service offered on the Site requires the creation of a User account.",
+					"5.5": "5.5. The User is personally responsible for maintaining the confidentiality of their account information, including the password, and for all activity carried out under the User account.",
+					"5.6": "5.6. The User must immediately notify the Site Administration of unauthorized use of their account or password, or any other breach of security.",
+					"5.7": "5.7. The Site Administration has the right to unilaterally cancel a User account if it has not been used for more than 24 calendar months in a row without notifying the User.",
+					"5.8": "5.8. This Agreement extends to all additional provisions and conditions regarding the purchase of Goods and provision of services offered on the Site.",
+					"5.9": "5.9. Information posted on the Site should not be construed as an amendment to this Agreement.",
+					"5.10": "5.10. The Site Administration has the right at any time without notice to change the list of services offered on the Site and/or the prices applicable to such Products and Services."
 				}
 			},
 			"6": {
 				"title": "6. LIABILITY",
 				"items": {
-					"6.1": "6.1. Any losses due to violation of the Agreement or unauthorized access are not compensated by the Site Administration.",
-					"6.2": "6.2. The Site Administration is not responsible for delays caused by force majeure, banking systems, or lack of technical means to use the Site."
+					"6.1": "6.1. Any losses that the User may incur as a result of willful or negligent breach of any provision of this Agreement, as well as due to unauthorized access to another User's communications, are not compensated by the Site Administration.",
+					"6.2": "6.2. The Site Administration is not responsible for:",
+					"6.2.1": "6.2.1. Delays or failures in performing operations caused by force majeure or malfunctions in telecommunications, computer, electrical and other related systems.",
+					"6.2.2": "6.2.2. Actions of payment systems, banks and transfer services and delays related to their operation.",
+					"6.2.3": "6.2.3. Proper functioning of the Site in case the User lacks the necessary technical means to use it, and the Administration is not obliged to provide such means to users."
 				}
 			},
 			"7": {
-				"title": "7. VIOLATION OF THE USER AGREEMENT",
+				"title": "7. BREACH OF THE USER AGREEMENT",
 				"items": {
-					"7.1": "7.1. The Site Administration may disclose User information if necessary for investigation or complaints.",
-					"7.2": "7.2. The Site Administration may disclose information to comply with laws or protect rights.",
-					"7.3": "7.3. Disclosure may be carried out if required by the legislation of Kazakhstan.",
-					"7.4": "7.4. The Site Administration may block or terminate access in case of violations or technical issues.",
-					"7.5": "7.5. The Site Administration is not responsible for termination of access due to User violations."
+					"7.1": "7.1. The Site Administration has the right to disclose any information collected about a User if disclosure is necessary in connection with an investigation or complaint regarding unlawful use of the Site or to identify a User who may be infringing the rights of the Site Administration or other Users.",
+					"7.2": "7.2. The Site Administration has the right to disclose any information about a User which it deems necessary to comply with applicable law or court decisions, to ensure enforcement of this Agreement, or to protect the rights or safety of Users.",
+					"7.3": "7.3. The Site Administration has the right to disclose information about a User if required or permitted by the laws of the Republic of Kazakhstan.",
+					"7.4": "7.4. The Site Administration may, without prior notice to the User, suspend or block access to the Site if the User violates this Agreement or other site usage documents, or in case of termination of the Site or technical issues.",
+					"7.5": "7.5. The Site Administration is not liable to the User or third parties for suspension of access to the Site in case of the User's violation of any provision of this Agreement or other site usage documents."
 				}
 			},
 			"8": {
 				"title": "8. DISPUTE RESOLUTION",
 				"items": {
-					"8.1": "8.1. Before going to court, a claim for voluntary dispute resolution must be submitted.",
-					"8.2": "8.2. The recipient must respond within 30 days.",
-					"8.3": "8.3. If voluntary resolution is impossible, either party may go to court.",
-					"8.4": "8.4. Claims must be filed within 10 business days, except for copyright protection."
+					"8.1": "8.1. In case of any disagreements or disputes between the Parties to this Agreement, it is mandatory to submit a claim (a written proposal for voluntary settlement of the dispute) before going to court.",
+					"8.2": "8.2. The recipient of the claim shall notify the claimant in writing of the results of the claim consideration within 30 calendar days from the date of receipt.",
+					"8.3": "8.3. If the dispute cannot be resolved amicably, either Party may apply to the court for protection of its rights in accordance with the laws of the Republic of Kazakhstan.",
+					"8.4": "8.4. Any claim regarding the terms of use of the Site must be filed within 10 business days after the grounds for the claim arise, except for claims related to protection of copyright for materials protected by law. Failure to comply with this term will extinguish any claim or grounds for a claim due to statute of limitations."
 				}
 			},
 			"9": {
 				"title": "9. ADDITIONAL TERMS",
 				"items": {
-					"9.1": "9.1. The Site Administration does not accept counter-offers from Users.",
-					"9.2": "9.2. User reviews are not confidential and may be used by the Site Administration."
+					"9.1": "9.1. The Site Administration does not accept counteroffers from the User to amend this User Agreement.",
+					"9.2": "9.2. User reviews posted on the Site are not confidential information and may be used by the Site Administration without restrictions."
 				}
 			},
 			"10": {
 				"title": "10. DETAILS AND ADDRESS OF THE PROVIDER",
 				"items": {
 					"10.1": "Company: IP MYRZA",
-					"10.2": "Legal address: Z05X4T2, Republic of Kazakhstan, Astana, Nura district, Abiken Bekturov St., 4/1",
-					"10.3": "BIN/IIN: 920518301968",
-					"10.4": "KBE: 19",
-					"10.5": "Email: info@offiwebsite.com",
-					"10.6": "Receiving bank: AO 'Kaspi Bank'",
-					"10.7": "BIC: CASPKZKA",
-					"10.8": "IIK: KZ55722S000032599582"
+					"10.2": "Legal address: Z05X4T2, Republic of Kazakhstan,",
+					"10.3.": "Astana, Nura district, Abiken Bekturov St., house 4/1",
+					"10.4": "BIN/IIN: 920518301968",
+					"10.5": "KBE: 19",
+					"10.6": "Email: info@offiwebsite.com",
+					"10.7": "Beneficiary bank: JSC \"Kaspi Bank\"",
+					"10.8": "BIC: CASPKZKA",
+					"10.9": "IIK: KZ55722S000032599582"
 				}
 			}
 		}
 	},
 	"404": {
 		"title": "Page not found",
-		"description": "Unfortunately, the page was not found, but you can go to the home page",
-		"link": "Go to home"
+		"description": "Unfortunately, the page was not found, but you can go to the homepage",
+		"link": "To home"
 	}
 }

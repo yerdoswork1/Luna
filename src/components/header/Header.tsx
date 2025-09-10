@@ -59,7 +59,7 @@ export default function Header() {
 							</Link>
 							<div className={styles.location}>
 								<img src={Location} alt="location" />
-								<p>Дубай</p>
+								<p className={styles.locationText}>Дубай</p>
 							</div>
 							<LanguageDropDown
 								isOpen={isLanguageOpen}
