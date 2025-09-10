@@ -2,8 +2,8 @@
 
 .icon {
   @include responsive-prop(width, (xs: 1.5rem,
-      md: 1.75rem,
-      xl: 3.5rem,
+      md: 1.5rem,
+      xl: 2rem,
       2xl: 2.5rem));
 
   transition: transform 0.3s ease;
