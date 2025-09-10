@@ -12,9 +12,7 @@ function Footer() {
 					<p className={styles.footerDscr}>
 						© 2016-2025, Luna. {t("footer.all-rights-reserved")}.
 					</p>
-					<a href="http:\\skillshift.offiwebsite.com">
-						{t("footer.corporate")}
-					</a>
+					<a href="https://aqmaral.offiwebsite.com">{t("footer.corporate")}</a>
 				</div>
 				<Info />
 			</div>
